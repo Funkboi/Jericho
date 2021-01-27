@@ -48,7 +48,7 @@ async def on_message(message):
 @commands.guild_only()
 async def faggot(ctx):
     try:
-        await ctx.send(choice(tuple(member.mention for member in ctx.guild.members if not member.bot)) + "is a faggot")
+        await ctx.send(choice(tuple(member.mention for member in ctx.guild.members if not member.bot)) + " is a faggot")
     except IndexError:
         await ctx.send("You are the" + "the only the only THE ONLY" + " only human member on it!")
 
