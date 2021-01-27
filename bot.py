@@ -50,7 +50,7 @@ async def faggot(ctx):
     try:
         await ctx.send(choice(tuple(member.mention for member in ctx.guild.members if not member.bot)) + " is a faggot")
     except IndexError:
-        await ctx.send("You are the" + "the only the only THE ONLY" + " only human member on it!")
+        await ctx.send("You are the faggot!")
 
 @client.command()
 async def clear(ctx, amount=20) :
