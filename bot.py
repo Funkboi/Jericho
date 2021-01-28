@@ -49,7 +49,10 @@ async def on_message(message):
    if "sus" in message.content:
        await message.channel.send("WHEN THE IMPOSTER IS SUS")
    if "+faggot" in message.content:
-       await client.process_commands(message)
+      try:
+       await message.channel.send(choice(tuple(member.mention for member in message.guild.members if not member.bot)) + " is a faggot")
+      except IndexError:
+       await message.channel.send("Justin doesn't know how to program in python so I can't find someone to call a faggot")
 @client.command()
 @commands.guild_only()
 async def faggot(ctx):
