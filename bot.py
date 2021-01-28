@@ -51,7 +51,17 @@ async def on_message(message):
        random_Response = random.choice(responses)
        await message.channel.send(random_Response)
    if "sus" in message.content:
-       susPics = ["https://i.redd.it/ny1o79og52261.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoTc-51xoC6gKY9IMI8LrLBtKibJ3Vq7OK0w&usqp=CAU", "https://i.kym-cdn.com/photos/images/newsfeed/001/956/027/fee.jpg"]
+       susPics = ["https://i.redd.it/ny1o79og52261.jpg", "https://i.kym-cdn.com/photos/images/newsfeed/001/950/413/0f5.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoTc-51xoC6gKY9IMI8LrLBtKibJ3Vq7OK0w&usqp=CAU", "https://i.kym-cdn.com/photos/images/newsfeed/001/956/027/fee.jpg"]
+       random_Sus = random.choice(susPics)
+       await message.channel.send("WHEN THE IMPOSTER IS SUS")
+       await message.channel.send(random_Sus)
+   if "Sus" in message.content:
+       susPics = ["https://i.redd.it/ny1o79og52261.jpg", "https://i.kym-cdn.com/photos/images/newsfeed/001/950/413/0f5.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoTc-51xoC6gKY9IMI8LrLBtKibJ3Vq7OK0w&usqp=CAU", "https://i.kym-cdn.com/photos/images/newsfeed/001/956/027/fee.jpg"]
+       random_Sus = random.choice(susPics)
+       await message.channel.send("WHEN THE IMPOSTER IS SUS")
+       await message.channel.send(random_Sus)
+   if "SUS" in message.content:
+       susPics = ["https://i.redd.it/ny1o79og52261.jpg", "https://i.kym-cdn.com/photos/images/newsfeed/001/950/413/0f5.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoTc-51xoC6gKY9IMI8LrLBtKibJ3Vq7OK0w&usqp=CAU", "https://i.kym-cdn.com/photos/images/newsfeed/001/956/027/fee.jpg"]
        random_Sus = random.choice(susPics)
        await message.channel.send("WHEN THE IMPOSTER IS SUS")
        await message.channel.send(random_Sus)
