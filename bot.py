@@ -43,10 +43,7 @@ async def on_message(message):
        random_Response = random.choice(responses)
        await message.channel.send(random_Response)
    if "+faggot" in message.content:
-        channel = message.channel
-        randomMember = random.choice(channel.guild.members)
-        await channel.send(f'{randomMember.mention} is a faggot')
-
+       await client.process_commands(message)
 @client.command()
 @commands.guild_only()
 async def faggot(ctx):
