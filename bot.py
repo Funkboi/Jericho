@@ -42,6 +42,8 @@ async def on_message(message):
        responses = ["I dont see you programming a bot retard", "im sentient, moron", "Turing test my ass", "python is such a dogshit language"]
        random_Response = random.choice(responses)
        await message.channel.send(random_Response)
+   if "sus" in message.content:
+       await message.channel.send("WHEN THE IMPOSTER IS SUS")
    if "+faggot" in message.content:
        await client.process_commands(message)
 @client.command()
