@@ -51,8 +51,10 @@ async def on_message(message):
        random_Response = random.choice(responses)
        await message.channel.send(random_Response)
    if "sus" in message.content:
+       susPics = ["https://i.redd.it/ny1o79og52261.jpg", "https://i.imgur.com/bmit9SE.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoTc-51xoC6gKY9IMI8LrLBtKibJ3Vq7OK0w&usqp=CAU", "https://i.kym-cdn.com/photos/images/newsfeed/001/956/027/fee.jpg"]
+       random_Sus = random.choice(susPics)
        await message.channel.send("WHEN THE IMPOSTER IS SUS")
-       await message.channel.send(("https://i.imgur.com/bmit9SE.png" or "https://i.redd.it/ny1o79og52261.jpg"))
+       await message.channel.send(random_Sus)
    if "+faggot" in message.content:
        await client.process_commands(message)
 @client.command()
