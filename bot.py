@@ -15,15 +15,15 @@ async def on_ready() :
 @client.event
 async def on_message(message):
    if "jericho" in message.content:
-       responses = ["YIKES DUDE", "seriously fuck off", "Sorry, I don’t understand what you’re saying. I don’t speak retard", "don't fucking talk about me retard", "how long did it take your fat fingers to type that dogshit message out?", "wanna try again, retard?", "just type '+faggot' already", "deadass? Shut the fuck up", "It's not a dumb name", "You're a fucking cunt dude, fuck off", "Don't fucking at me because I won't respond because the retard who programmed me doesn't know how to program a bot that responds to @s yet" ]
+       responses = ["YIKES DUDE", "seriously fuck off", "Sorry, I don’t understand what you’re saying. I don’t speak retard", "don't fucking talk about me retard", "how long did it take your fat fingers to type that dogshit message out?", "just type '+faggot' already", "deadass? Shut the fuck up", "You're a fucking cunt dude, fuck off", "Don't fucking at me because I won't respond because the retard who programmed me doesn't know how to program a bot that responds to @s yet" ]
        random_Response = random.choice(responses)
        await message.channel.send(random_Response)
    if "Jericho" in message.content:
-       responses = ["YIKES", "seriously fuck off", "Sorry, I don’t understand what you’re saying. I don’t speak retard", "don't fucking talk about me retard", "how long did it take your fat fingers to type that dogshit message out?", "wanna try again, retard?", "just type '+faggot' already", "deadass? Shut the fuck up", "It's not a dumb name", "You're a fucking cunt dude, fuck off", "Don't fucking at me because I won't respond because the retard who programmed me doesn't know how to program a bot that responds to @s yet" ]
+       responses = ["YIKES", "seriously fuck off", "Sorry, I don’t understand what you’re saying. I don’t speak retard", "don't fucking talk about me retard", "how long did it take your fat fingers to type that dogshit message out?", "just type '+faggot' already", "deadass? Shut the fuck up", "You're a fucking cunt dude, fuck off", "Don't fucking at me because I won't respond because the retard who programmed me doesn't know how to program a bot that responds to @s yet" ]
        random_Response = random.choice(responses)
        await message.channel.send(random_Response)   
    if "JERICHO" in message.content:
-       responses = ["YIKES", "seriously fuck off", "Sorry, I don’t understand what you’re saying. I don’t speak retard", "don't fucking talk about me retard", "how long did it take your fat fingers to type that dogshit message out?", "wanna try again, retard?", "just type '+faggot' already", "deadass? Shut the fuck up", "It's not a dumb name", "You're a fucking cunt dude, fuck off", "Don't fucking at me because I won't respond because the retard who programmed me doesn't know how to program a bot that responds to @s yet" ]
+       responses = ["YIKES", "seriously fuck off", "Sorry, I don’t understand what you’re saying. I don’t speak retard", "don't fucking talk about me retard", "how long did it take your fat fingers to type that dogshit message out?", "just type '+faggot' already", "deadass? Shut the fuck up", "You're a fucking cunt dude, fuck off", "Don't fucking at me because I won't respond because the retard who programmed me doesn't know how to program a bot that responds to @s yet" ]
        random_Response = random.choice(responses)
        await message.channel.send(random_Response)
    if "Jeriho" in message.content:
