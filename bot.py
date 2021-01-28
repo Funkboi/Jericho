@@ -52,7 +52,7 @@ async def faggot(ctx):
     try:
         await ctx.send(choice(tuple(member.mention for member in ctx.guild.members if not member.bot)) + " is a faggot")
     except IndexError:
-        await ctx.send("You are the faggot!")
+        await ctx.send("Justin doesn't know how to program in python so I can't find someone to call a faggot")
 @client.command()
 async def clear(ctx, amount=20) :
     await ctx.channel.purge(limit=amount)
