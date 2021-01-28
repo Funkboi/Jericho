@@ -54,7 +54,7 @@ async def on_message(message):
 @commands.guild_only()
 async def faggot(ctx):
     try:
-        await ctx.send(choice(tuple(member.mention for member in ctx.guild.members if not member.bot)) + " is a faggot")
+        await ctx.send(member.mention(choice(tuple(for member in ctx.guild.members if not member.bot)) + " is a faggot"))
     except IndexError:
         await ctx.send("Justin doesn't know how to program in python so I can't find someone to call a faggot")
 @client.command()
